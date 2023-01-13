@@ -33,3 +33,7 @@ div.header {
     content: "";
     width: 350px;
   }
+
+  .bold {
+    font-weight:bold;
+  }
