@@ -2,8 +2,23 @@
     box-sizing: border-box;
   }
   
-  body {
+body {
     background: #f5f6f7;
+  }
+
+  nav{
+  background-color: #1c1d25;
+  height:40px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  }
+
+  nav > ul{
+    display:flex;
+    list-style-type:none;
+    width:500px;
+    justify-content:space-around;
   }
 
 div.header {
@@ -36,4 +51,8 @@ div.header {
 
   .bold {
     font-weight:bold;
+  }
+  footer{
+    height:40px;
+    background-color:rgba(33, 91, 129,50%);
   }
