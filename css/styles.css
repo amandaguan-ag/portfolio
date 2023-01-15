@@ -131,10 +131,21 @@ hr {
   margin-right: 20px;
 }
 
-a {
-  text-decoration: none;
-  color:white;
-} 
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: hotpink;
+}
+
+a:active {
+  color: blue;
+}
 
 footer{
   height:80px;
