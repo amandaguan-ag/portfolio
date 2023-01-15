@@ -55,6 +55,7 @@ font-family: 'Poppins', sans-serif;
 
 .project > h2 {
   text-align: center;
+  font-weight: bold;
 }
 
 .project-container{
