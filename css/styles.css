@@ -96,8 +96,59 @@ p.header{
   border-radius: 10px;
 }
 
-.bold {
-  font-weight:bold;
+.project{
+  text-align: center;
+}
+
+.project-container{
+  display:flex;
+  justify-content: space-around;
+}
+
+#projects h3 {
+  color:rgb(41, 41, 41);
+  padding-left: 1em;
+  font-size: 1.5em;
+}
+
+#projects ul {
+  list-style-type: none;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+#projects li {
+  color:rgba(19, 19, 19, 0.9);
+  padding: 1em;
+  box-sizing: border-box;
+  background-color:rgb(255, 255, 255);
+  margin: 1em;
+  font-size: 1.5em;
+  text-align: center;
+  border-radius: .5em;
+}
+
+#projects h4 {
+  margin: 0;
+  padding-bottom: 1em;
+  padding-top: .2em;
+}
+
+#projects a {
+  text-decoration: none;
+  color:rgba(19, 19, 19, 0.9);
+}
+
+#projects li:hover {
+  background-color:rgb(247,148,142);
+  color:rgba(19, 19, 19, 0.9);
+}
+
+.project-img {
+  max-width: 90%;
+  display: block;
+  margin: 0 auto;
 }
 
 footer{
