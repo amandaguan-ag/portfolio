@@ -11,8 +11,9 @@ font-family: 'Poppins', sans-serif;
   justify-content: space-between;
 }
 
-h1{
+.outstand{
   font-weight: 800;
+  color: rgb(60, 69, 170);
 }
 
 .sidebar > ul {
@@ -25,9 +26,6 @@ h1{
   font-weight: 700;
 }
 
-.highlight { 
-  background-color:#FFFF00; 
-}
 
 .intro-box{
   border: 50px solid rgba(33, 91, 129,50%);
@@ -56,9 +54,17 @@ h1{
   border-radius: 10px;
 }
 
+.project > h2 {
+  text-align: center;
+}
+
 .project-container{
   display: flex;
   justify-content: space-around;
+}
+
+.card-title{
+  font-weight: bold;
 }
 
 a:link {
