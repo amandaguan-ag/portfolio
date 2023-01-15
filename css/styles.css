@@ -6,78 +6,23 @@ body {
 font-family: 'Poppins', sans-serif;
 }
 
-section{
-  background-color: white;
-}
-
-.first-viewport{
-  background-color:#1c1d25;
-  height: 100vh;
-  color:white;
-  font-size: 40px;
-}
-
-nav{
-display: flex;
-justify-content: space-between;
-}
-
-nav > ul{
-  display:flex;
-  list-style-type:none;
-  width:500px;
-  justify-content:space-around;
-  font-size: 30px;
-}
-
 .header{
-  display: flex;
-  height:100%;
+  display:flex;
   justify-content: space-between;
-  align-items: center;
-}
-
-.header-text{
-  margin-left: 80px;
-  margin-bottom: 280px;
 }
 
 h1{
-  font-size:80px;
-  margin:0;
+  font-weight: 800;
 }
 
-p.header{
-  f
-}
-
-.button{
-  width:200px;
-  height:55px;
-  border-radius:30px;
-  background-color: coral;
-  text-align:center;
-  font-size: 30px;
-  font-weight: 300;
-  padding-top: 5px;
-  margin-top: 20px;
-}
-
-.button:hover{
-  background-color: #ef744b;
-}
-
-.button:active{
-  background-color: #A9A9A9;
-  color: #808080;
-}
-
-.social{
-  padding:200px;
-}
-
-.linkedin, .github{
-  margin: 20px 0;
+.sidebar > ul {
+  display: flex;
+  list-style-type: none;
+  width: 500px;
+  justify-content: space-around;
+  color: rgb(180, 69, 69);
+  margin-top: 40px;
+  font-weight: 700;
 }
 
 .highlight { 
