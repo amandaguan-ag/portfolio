@@ -84,6 +84,13 @@ p.header{
   background-color:#FFFF00; 
 }
 
+.intro-box{
+  border: 50px solid rgba(33, 91, 129,50%);
+  width: 100%;
+  padding: 50px;
+  margin: 20px auto;
+}
+
 .gallery {
   display: flex;
   flex-direction: row;
