@@ -104,13 +104,6 @@ p.header{
   border-radius: 10px;
 }
 
-.third-section{
-  display:flex;
-  flex-direction: column;
-  text-align:center;
-  padding: 80px;
-}
-
 .project-card {
   width: 300px;
   height: 500px;
