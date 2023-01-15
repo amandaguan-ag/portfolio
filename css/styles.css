@@ -80,6 +80,10 @@ p.header{
   margin: 20px 0;
 }
 
+.highlight { 
+  background-color:#FFFF00; 
+}
+
 .gallery {
   display: flex;
   flex-direction: row;
