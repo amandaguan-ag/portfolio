@@ -69,18 +69,22 @@ font-family: 'Poppins', sans-serif;
 
 a:link {
   color: red;
+  cursor: pointer;
 }
 
 a:visited {
   color: green;
+  cursor: pointer;
 }
 
 a:hover {
   color: hotpink;
+  cursor: pointer;
 }
 
 a:active {
   color: blue;
+  cursor: pointer;
 }
 
 footer{
