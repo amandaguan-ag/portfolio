@@ -18,11 +18,11 @@ nav {
   justify-content: space-between;
 }
 
-ul {
-  display: flex;
+nav > ul {
+  float: flex;
+  justify-content: space-around;
   list-style-type: none;
   width: 500px;
-  justify-content: space-around;
   font-size: 30px;
 }
 
@@ -89,6 +89,9 @@ li {
   border-radius: 10px;
 }
 
+figcaption {
+  float: right;
+}
 .project > h2 {
   text-align: center;
   font-weight: bold;
