@@ -3,6 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="Amanda Guan, Software Engineer, Portfolio">
+  <meta name="description" content="This is Amanda Guan's portfolio landing. You can find her introduction, projects and contacts here. Let's check out">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <title>Portfolio | Amanda Guan</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
@@ -13,13 +15,15 @@
 </head>
 <body>
   <section class="hero">
-    <nav>
+    <div class="header">
       <p>Portfolio</p>
-      <ul id="nav-list">
-        <li><a href="#about-me">About me</a></li>
-        <li><a href="#projects">Projects</a></li>
-      </ul>
-    </nav>
+      <div class="sidebar">
+        <ul>
+          <li><a href="#about-me">About me</a></li>
+          <li><a href="#project">Project</a></li>
+        </ul>
+      </div>
+    </div>
     <div class="hero-area">
       <div class="hero-text">
         <h1>Amanda Guan</h1>
@@ -61,24 +65,20 @@
     </div>
     <div class="gallery">
       <img src="img/ag1.JPG" alt="Amanda Guan">
-      <figcaption>A self portrait of Amanda</figcaption>
       <img src="img/hike.JPG" alt="Hiking and back portrait ">
-      <figcaption>Illustring one of Amanda's hobby - Hiking</figcaption>
     </div>
   </div>
   <div class="project" id="project">
     <h2>My Projects</h2>
     <div class="project-container">
       <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="img/firstwebpage.png" alt="Screenshoot of My first webpage">
         <div class="card-body">
-          <h5 class="card-title">First Webpage</h5>
-          <p class="card-text">Used HTML and CSS - This webpage introduces what I will learn at Epicodus.</p>
-          <p><a href="https://github.com/amandaguan-ag/myfirstwebpage">View code here</a></p>
+          <h5 class="card-title">Pizza website</h5>
+            <p class="card-text">Used HTML, CSS and Javascript - This is an pizza order cost calucation website</p>
+          <p><a href="https://amandaguan-ag.github.io/pizza/">View page here</a></p>
         </div>
       </div>
       <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="img/soypage.png" alt="Screenshot of Soy Webpage">
         <div class="card-body">
           <h5 class="card-title">Introduction to Soy</h5>
           <p class="card-text">Used HTML and CSS - This is an introduction to my cat -Soy.</p>
@@ -86,7 +86,6 @@
         </div>
       </div>
       <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="img/cupcake.png" alt="Screenshot of Cupcake Webpage">
         <div class="card-body">
           <h5 class="card-title">Cupcake Page</h5>
           <p class="card-text">Used HTML and CSS - This is cupcake webpage for retail purpose.</p>
